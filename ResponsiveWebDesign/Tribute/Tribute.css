@@ -1,0 +1,85 @@
+html, body {
+    min-height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Oxygen;
+    font-size: 16px;
+}
+
+body {
+    background: #442547;
+}
+
+.title {
+    font-size: 50px;
+    font-family: georgia;
+    color: rgb(182, 165, 91);
+    background-color: #532157;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 28px;
+    color: rgb(182, 165, 91);
+    background-color: #532157;
+    padding: 10px 0px 25px 0px;
+    text-align: center;
+}
+
+.img-div{
+    background: #442547;
+}
+
+.img-div img {
+    width: 40%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    align-items: center;
+}
+
+.img-caption {
+    font-size: 12px;
+    padding-bottom: 10px;
+    color: rgb(182, 165, 91);
+    text-align: center;
+}
+
+.tribute-info {
+    background: #442547;
+    width: 50%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.tribute-info p {
+    color: rgb(182, 165, 91);
+    text-align: center;
+    margin: auto;
+    padding-bottom: 1em;
+}
+
+
+.italica {
+    font-weight: bold;
+}
+
+.negrita {
+    font-style: italic;
+}
+
+.tribute-link {
+    width: 100%;
+    color: rgb(182, 165, 91);
+}
+
+@media (max-width: 767px) {
+    .tribute-info {
+        width: auto;
+    }
+}

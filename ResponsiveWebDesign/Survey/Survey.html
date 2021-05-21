@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Survey Page </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Survey.css" />
+</head>
+
+<body>
+<title>
+    <h1 id="title" class="title"> Títulos </h1>
+</title>
+
+<p id="description" class="description"> Descripción </p>
+
+<form id="survey-form" class="survey-form">
+    <div class="name">
+        <label for="name" class="name-label"> Nombre: </label>
+        <input type="text" placeholder="Ingrese su nombre" required id="name" class="name-input">
+    </div>
+    <div class="email">
+        <label for="email" class="email-label"> Email: </label>
+        <input type="email" placeholder="Ingrese su su email" required id="mail" class="email-input">
+    </div>
+
+    <div class="number">
+        <label for="number" class="numer-label"> Número </label>
+        <input type="number" placeholder="Ingrese su edad" required id="number" class="number-input" minlength="0" maxlength="255" pattern="^[0-9]*$">
+    </div>
+
+    <div class="button">
+        <input type="submit" id="submit" class="submit-input"> 
+    </div>
+
+
+
+
+
+</form>
+
+
+</body>
